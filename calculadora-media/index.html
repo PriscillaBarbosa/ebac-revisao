@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Calculadora de médias</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <img src="./images/capelo.png" alt="capelo">
+            <h1>Calculadora de Médias</h1>
+        </header>
+        <form>
+            <input type="text" required placeholder="Nome da atividade" />
+            <input type="number" required placeholder="Nota da atividade" min="0" max="10"/>
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome da atividade</th>
+                    <th>Nota da atividade</th>
+                    <th>Aprovado?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Atividade 1</td>
+                    <td>7</td>
+                    <td><img src="./images/feliz.png" alt="feliz"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Média Final</td>
+                    <td>7</td>
+                    <td><span class="resultado reprovado">Aprovado</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div> 
 </body>
 </html>

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Noto Sans", sans-serif;
+
+}
+
+/*cor de fundo*/
+body {
+    background-color: #F4EFEB;
+    color: #5E7A88;
+    padding-top: 100px;
+}
+
+/*cabeçalho*/
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/*tamanho imagem cabeçalho*/
+header img {
+    height: 46px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 20px;
+    background-color: #fff;
+    color:black;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+form button {
+    background-color: #5E7A88;
+    color:#F4EFEB;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #5E7A88;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(94,124,136, 0.2);
+}
+
+table td img {
+    height: 40px;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #F4EFEB;
+    background-color: #5E7A88;
+    border-radius:  3px;
+}
+
+.aprovado {
+    background-color: #5E7A88;
+}
+
+.reprovado {
+    background-color: black;
+}
